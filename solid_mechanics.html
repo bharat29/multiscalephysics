@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>FEM_solidmechanics</title>
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="fem.css"></link>
+</head>
+<body>
+<header>
+
+</header>
+<h1 id="heading">MechSchool</h1>
+
+<nav>
+<ul>
+<li><a href="introduction.html">Home</a></li>
+<li><a href="#">Tutorials</a></li>
+<li><a href="#">Examples</a></li>
+<li><a href="#">Discussion</a></li>
+</ul>
+</nav>
+<div id="mySidenav" class="sidenav">
+
+<a href="#">Stresses and Equilibrium</a>
+<a href="#">Boundary conditions</a>
+<a href="#">Strain compatibility</a>
+<a href="#">Stress-strain relations</a>
+
+</div>
+<div id="main">
+<h2>Fundamentals of Solid mechanics</h2>
+<p>We will familiarise ourselves with the basics of solid 
+mechanics in this module. </p>
+<h3>Stresses and Equilibrium</h3>
+<p>Consider a three-dimensional body with volume V and
+surface S as shown in figure. The x,y and z axis are shown.
+The displacement on some part of the boundary is specified. 
+Under the action of loading, the body deforms. The deformation
+of a point x is given by <strong>u</strong>=[u,v,w]<sup>T</sup>.
+The loads acting on the body can be distributed force per unit
+area <strong>T</strong> or distributed force per unit volume <strong>
+f</strong>. The traction force components are represented as <strong>T</strong>=[T<sub>x</sub>, T<sub>y</sub>, T<sub>z</sub>]<sup>T</sup>. 
+The body force components are represented as <strong>f</strong>=[f<sub>x</sub>, f<sub>y</sub>, f<sub>z</sub>]<sup>T</sup>.</p>
+<div id="drawing1">
+<canvas id="myCanvas" width="400" height="400"  ></canvas>
+
+</div>
+</div>
+<a href="#" class="next">Next &raquo;</a>
+<script>
+var canvas=document.getElementById("myCanvas");
+var body=canvas.getContext("2d");
+body.beginPath();
+body.moveTo(100,50);
+body.quadraticCurveTo(200,75,200,80);
+body.quadraticCurveTo(280,100,280,150);
+body.lineTo(280,280);
+body.quadraticCurveTo(100,280,100,150);
+body.lineTo(100,50);
+body.stroke();
+body.beginPath();
+body.moveTo(50,350);
+body.lineTo
+</script>
+</body>
