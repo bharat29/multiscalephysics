@@ -1,3 +1,7 @@
+<?php
+header("Content-type: text/css; charset: UTF-8");
+?>
+
 html{
 	
 
@@ -6,7 +10,7 @@ html{
 h1{
 	
 margin: 30px;
-	
+padding-top: 10px;	
 }
 p{
 	
@@ -19,10 +23,15 @@ p{
 h2, h3{
 	margin: 30px;
 }
+header nav ul{
+background-color: rgb(105,95,200);
+
+}
 a{
 	color: black;
 	text-decoration: underline;
 }
+
 a:hover{
 	text-decoration: none;
 	font-weight: bold;
@@ -32,18 +41,17 @@ nav ul{
 	list-style-type:none;
 	margin: 30px;
 	padding: 0;
-	overflow: hidden;
+	
 	text-align: center;
-	background-color: #42f5e9;
+	background-color: rgb(105,95,200);
 }
 nav li{
 	float: left;
-	font-size: 1.2em;
-	line-height: 40px;
-	height: 40px;
+	
+
 	color:black;
-		display: block;
-		padding: 0 20px;
+	display: block;
+	padding-right: 100px;
 		
 }
 a.next{
@@ -84,6 +92,17 @@ text-align: center;
 	margin-left: 200px;
 	color: black;
 }
+.indexheader{
+margin-top: 30px;
+color: black;	
+font-size: 1.5em;
+height: 120px;
+display: block;
+
+padding-left: 0px;
+
+}	
+
 	
 	
 	
@@ -98,6 +117,3 @@ text-align: center;
 	
 	
 	
-	
-	
-}
